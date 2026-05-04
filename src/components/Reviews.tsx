@@ -1,11 +1,9 @@
 import SectionLabel from "./SectionLabel";
 
-{/* PLACEHOLDER REVIEWS — Vervang door echte klantbeoordelingen */}
-
 const reviews = [
-  { naam: "Jan de Vries", auto: "Volkswagen Golf",  sterren: 5, tekst: "Super tevreden met het resultaat. Simon kwam op tijd, werkte netjes en het resultaat is precies wat ik wilde. Aanrader!" },
-  { naam: "Lisa Bakker",  auto: "BMW X3",            sterren: 5, tekst: "Heel fijn dat Simon op locatie komt. De ceramic folie zit er perfect op en de auto ziet er geweldig uit." },
-  { naam: "Mark Jansen",  auto: "Audi A4 Avant",     sterren: 5, tekst: "Vakkundig werk, goede communicatie en een eerlijke prijs. Ik zou Intint zeker aanbevelen aan anderen." },
+  { naam: "Kassie",         auto: "Mercedes W211",      sterren: 5, tekst: "Mijn W211 door Simon laten blinderen. Simon komt zijn afspraken na, werkt super netjes en is echt een vakman! Ben er super blij mee. Ik zou hem echt iedereen aanraden!!" },
+  { naam: "Hasan Tasdemir", auto: "BMW 316 Compact",    sterren: 5, tekst: "Simon is professioneel en bekwaam. Heeft de ruiten van mijn BMW 316 compact getint en het resultaat is echt helemaal top! Is niet bezig je het duurste pakket te verkopen en heeft zelfs geattendeerd op de actie voor een goedkopere deal, erg eerlijk! Aanrader als je je ruiten wilt laten tinten!" },
+  { naam: "Hans Pieterson", auto: "Kia Niro",             sterren: 5, tekst: "Ineens wilden we midden in de zomer toch getint glas achter bij onze Kia Niro. Ik belde een bedrijf dat al jaren bestaat, die hadden pas over 2 maanden plaats. Toen belde ik Simon, die kon dezelfde week nog. En ook nog eens aan huis! Hij heeft vakwerk geleverd. Super blij. Past ook goed bij de nieuwe tijd, naar de klant toe." },
 ];
 
 export default function Reviews() {
@@ -14,9 +12,6 @@ export default function Reviews() {
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full bg-accent opacity-[0.03] blur-[100px] pointer-events-none" />
       <div className="max-w-6xl mx-auto px-6 relative">
         <SectionLabel label="Ervaringen" title="Wat klanten" highlight="Zeggen" />
-        <p className="reveal text-sub text-xs font-light uppercase tracking-widest mb-10 -mt-6">
-          Voorbeeldreviews — worden vervangen door echte beoordelingen
-        </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {reviews.map((r) => (
             <div key={r.naam} className="reveal glow-card bg-card border border-card-border p-8">
