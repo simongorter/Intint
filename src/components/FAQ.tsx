@@ -5,9 +5,9 @@ import SectionLabel from "./SectionLabel";
 
 const faqs = [
   { vraag: "Wat is jouw werkgebied?",                               antwoord: "Ik werk binnen een straal van ongeveer 1 rijuur vanaf Balk. Dat omvat vrijwel heel Friesland en delen van Groningen, Drenthe en Overijssel. Twijfelt u of uw locatie binnen mijn werkgebied valt? Neem gerust contact op — ik denk graag mee." },
-  { vraag: "Hoe lang duurt het tinten?",                       antwoord: "Gemiddeld is het tinten van alle ruiten vanaf de b-stijl binnen 4 uur afgerond, afhankelijk van het autotype. U kunt ondertussen gewoon doorgaan met uw dag." },
-  { vraag: "Kan er altijd en overal worden getint?",           antwoord: "Ik kan enkel in de buitenlucht werken als de weersomstandigheden gunstig zijn. Bij neerslag of harde wind dient de afspraak te worden verzet indien u geen binnenruimte kunt faciliteren. Daarnaast verzoek ik de auto op eigen terrein te plaatsen met voldoende werkruimte naast en achter de auto (circa 1 meter). Ook is er een stroomaansluiting nodig op maximaal 25 meter afstand." },
-  { vraag: "Moet ik als klant nog voorbereidingen treffen?",   antwoord: "Voor het beste resultaat helpt het als uw auto van binnen en buiten zo schoon mogelijk is. Dit vermindert de kans op contaminatie van vuil dat tussen de folie en het glas terecht komt. Eventuele obstakels zoals kinderzitjes en spullen in de kofferbak graag verwijderen." },
+  { vraag: "Hoe lang duurt het tinten?",                       antwoord: "Over het algemeen is het tinten van alle ruiten vanaf de b-stijl binnen 4 uur afgerond, afhankelijk van het autotype. U kunt ondertussen gewoon doorgaan met uw dag." },
+  { vraag: "Kan er altijd en overal worden getint?",           antwoord: "Ik kan enkel in de buitenlucht werken als de weersomstandigheden gunstig zijn. Bij neerslag of harde wind dient de afspraak te worden verzet indien u geen binnenruimte kunt faciliteren. Daarnaast verzoek ik de auto op een geschikte plaats neer te zetten. Dit betekent dat er voldoende werkruimte naast en achter de auto is (minstens 80 cm)." },
+  { vraag: "Moet ik als klant nog voorbereidingen treffen?",   antwoord: "Voor het beste resultaat helpt het als uw auto van binnen en buiten zo schoon mogelijk is. Dit vermindert de kans op vuil dat tussen de folie en het glas terecht komt. Eventuele obstakels zoals kinderzitjes en spullen in de kofferbak graag vooraf verwijderen." },
 ];
 
 export default function FAQ() {

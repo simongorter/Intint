@@ -123,21 +123,25 @@ export default function ContactForm() {
               <input type="tel" value={form.telefoon} onChange={set("telefoon")} placeholder="06-12345678" className={inputClass} />
             </div>
 
-            {/* Adres */}
-            <div>
-              <label className="block text-xs font-semibold uppercase tracking-widest text-sub mb-2">Straat &amp; huisnummer</label>
-              <input type="text" value={form.adres} onChange={set("adres")} placeholder="Kerkstraat 12" className={inputClass} />
-            </div>
-            <div className="grid sm:grid-cols-2 gap-4">
-              <div>
-                <label className="block text-xs font-semibold uppercase tracking-widest text-sub mb-2">Postcode</label>
-                <input type="text" value={form.postcode} onChange={set("postcode")} placeholder="1234 AB" className={inputClass} />
-              </div>
-              <div>
-                <label className="block text-xs font-semibold uppercase tracking-widest text-sub mb-2">Stad / plaats</label>
-                <input type="text" value={form.stad} onChange={set("stad")} placeholder="Amsterdam" className={inputClass} />
-              </div>
-            </div>
+            {/* Adres — alleen bij afspraak */}
+            {isAfspraak && (
+              <>
+                <div>
+                  <label className="block text-xs font-semibold uppercase tracking-widest text-sub mb-2">Straat &amp; huisnummer</label>
+                  <input type="text" value={form.adres} onChange={set("adres")} placeholder="Kerkstraat 12" className={inputClass} />
+                </div>
+                <div className="grid sm:grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-xs font-semibold uppercase tracking-widest text-sub mb-2">Postcode</label>
+                    <input type="text" value={form.postcode} onChange={set("postcode")} placeholder="1234 AB" className={inputClass} />
+                  </div>
+                  <div>
+                    <label className="block text-xs font-semibold uppercase tracking-widest text-sub mb-2">Stad / plaats</label>
+                    <input type="text" value={form.stad} onChange={set("stad")} placeholder="Amsterdam" className={inputClass} />
+                  </div>
+                </div>
+              </>
+            )}
 
             {isAfspraak && (
               <>
