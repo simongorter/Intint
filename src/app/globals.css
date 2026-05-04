@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #f0f0f0;
+  font-weight: 300;
+}
+
+::selection {
+  background-color: #d4a853;
+  color: #0a0a0a;
+}
+
+/* ===== Hero animations ===== */
+.hero-fade-1 { animation: fadeUp 0.8s ease forwards; animation-delay: 0.1s; opacity: 0; }
+.hero-fade-2 { animation: fadeUp 0.8s ease forwards; animation-delay: 0.3s; opacity: 0; }
+.hero-fade-3 { animation: fadeUp 0.8s ease forwards; animation-delay: 0.5s; opacity: 0; }
+.hero-fade-4 { animation: fadeUp 0.8s ease forwards; animation-delay: 0.65s; opacity: 0; }
+.hero-fade-5 { animation: fadeUp 0.8s ease forwards; animation-delay: 0.8s; opacity: 0; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== Scroll reveal ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===== Glow hover card ===== */
+.glow-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  border-radius: 1rem;
+}
+.glow-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 0 1px rgba(212, 168, 83, 0.35),
+              0 8px 40px rgba(212, 168, 83, 0.18),
+              0 0 80px rgba(212, 168, 83, 0.07);
+  border-color: rgba(212, 168, 83, 0.4) !important;
+}
+
+/* ===== Glow button ===== */
+.glow-btn {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+.glow-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 24px rgba(212, 168, 83, 0.45), 0 4px 20px rgba(212, 168, 83, 0.2);
+}
+
+/* ===== 3D primary button ===== */
+.btn-3d {
+  background: linear-gradient(175deg, #f0c76a 0%, #d4a853 45%, #b8882e 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.18);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+.btn-3d:hover {
+  background: linear-gradient(175deg, #f5d07a 0%, #ddb35e 45%, #c49438 100%);
+  transform: scale(1.05);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.18),
+    0 0 24px rgba(212, 168, 83, 0.45),
+    0 4px 20px rgba(212, 168, 83, 0.2);
+}
+.btn-3d:active {
+  background: linear-gradient(175deg, #b8882e 0%, #d4a853 55%, #f0c76a 100%);
+  transform: scale(0.97);
+  box-shadow:
+    inset 0 2px 4px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Focus ===== */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #d4a853;
+  outline-offset: 3px;
+}

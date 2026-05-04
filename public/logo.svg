@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" width="320" height="90">
+  <defs>
+    <clipPath id="s1"><rect x="0"  y="0" width="20" height="90"/></clipPath>
+    <clipPath id="s2"><rect x="28" y="0" width="20" height="90"/></clipPath>
+    <clipPath id="s3"><rect x="56" y="0" width="20" height="90"/></clipPath>
+  </defs>
+  <path d="M0 68 Q0 76 8 76 L68 76 Q76 76 76 68 L76 22 Q76 14 68 14 L30 14 Q14 14 0 68 Z" fill="#d4a853" opacity="0.3" clip-path="url(#s1)"/>
+  <path d="M0 68 Q0 76 8 76 L68 76 Q76 76 76 68 L76 22 Q76 14 68 14 L30 14 Q14 14 0 68 Z" fill="#d4a853" opacity="0.65" clip-path="url(#s2)"/>
+  <path d="M0 68 Q0 76 8 76 L68 76 Q76 76 76 68 L76 22 Q76 14 68 14 L30 14 Q14 14 0 68 Z" fill="#d4a853" clip-path="url(#s3)"/>
+  <text font-family="'Century Gothic','Trebuchet MS',sans-serif" font-size="58" font-weight="400" letter-spacing="2" y="72" x="92">
+    <tspan fill="#d4a853">In</tspan><tspan fill="#ffffff">tint</tspan>
+  </text>
+</svg>
