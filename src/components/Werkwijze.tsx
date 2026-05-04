@@ -2,7 +2,7 @@ import SectionLabel from "./SectionLabel";
 import Image from "next/image";
 
 const stappen = [
-  { nr: "01", title: "Aanvraag",              desc: "Ik beantwoord al uw vragen en we bespreken de mogelijkheden om de service bij u op locatie aan te bieden." },
+  { nr: "01", title: "Aanvraag",              desc: "Ik beantwoord al uw vragen." },
   { nr: "02", title: "Afspraak inplannen",    desc: "Samen spreken we een geschikt moment, locatie en prijs af." },
   { nr: "03", title: "Installatie",  desc: "Op de afspraak installeer ik de folie op uw auto." },
   { nr: "04", title: "Oplevering",   desc: "Pas als het resultaat naar wens is, beschouw ik de klus als voltooid." },

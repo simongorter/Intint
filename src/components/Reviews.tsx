@@ -1,9 +1,9 @@
 import SectionLabel from "./SectionLabel";
 
 const reviews = [
-  { naam: "Kassie",         auto: "Mercedes W211",      sterren: 5, tekst: "Mijn W211 door Simon laten blinderen. Simon komt zijn afspraken na, werkt super netjes en is echt een vakman! Ben er super blij mee. Ik zou hem echt iedereen aanraden!!" },
-  { naam: "Hasan Tasdemir", auto: "BMW 316 Compact",    sterren: 5, tekst: "Simon is professioneel en bekwaam. Heeft de ruiten van mijn BMW 316 compact getint en het resultaat is echt helemaal top! Is niet bezig je het duurste pakket te verkopen en heeft zelfs geattendeerd op de actie voor een goedkopere deal, erg eerlijk! Aanrader als je je ruiten wilt laten tinten!" },
-  { naam: "Hans Pieterson", auto: "Kia Niro",             sterren: 5, tekst: "Ineens wilden we midden in de zomer toch getint glas achter bij onze Kia Niro. Ik belde een bedrijf dat al jaren bestaat, die hadden pas over 2 maanden plaats. Toen belde ik Simon, die kon dezelfde week nog. En ook nog eens aan huis! Hij heeft vakwerk geleverd. Super blij. Past ook goed bij de nieuwe tijd, naar de klant toe." },
+  { naam: "Kassie",     auto: "Mercedes W211",  sterren: 5, tekst: "Mijn W211 door Simon laten blinderen. Simon komt zijn afspraken na, werkt super netjes en is echt een vakman! Ben er super blij mee. Ik zou hem echt iedereen aanraden!!" },
+  { naam: "Liselotte",  auto: "Raamfolie",      sterren: 5, tekst: "Er was een snelle reactie op het contact formulier, waarna er al snel een afspraak kon worden gemaakt. De service is top! Het folie is van een super kwaliteit en is heel netjes aangebracht. En dat allemaal ook nog eens op locatie. Super blij mee! Nogmaals bedankt Simon!" },
+  { naam: "Hans",       auto: "Kia Niro",       sterren: 5, tekst: "Ineens wilden we midden in de zomer toch getint glas achter bij onze Kia Niro. Ik belde een bedrijf dat al jaren bestaat, die hadden pas over 2 maanden plaats. Toen belde ik Simon, die kon dezelfde week nog. En ook nog eens aan huis! Hij heeft vakwerk geleverd. Super blij. Past ook goed bij de nieuwe tijd, naar de klant toe." },
 ];
 
 export default function Reviews() {
