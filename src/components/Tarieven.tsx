@@ -44,7 +44,7 @@ export default function Tarieven() {
           </div>
 
           {/* Inline tip panel */}
-          <div className={`overflow-hidden transition-all duration-300 ${showTip ? "max-h-64 mt-5" : "max-h-0"}`}>
+          <div className={`overflow-hidden transition-all duration-300 ${showTip ? "max-h-[600px] mt-5" : "max-h-0"}`}>
             <div className="bg-card border border-accent/20 rounded-2xl p-5">
               <p className="text-sub text-sm leading-relaxed font-light">{ceramicTip}</p>
             </div>
