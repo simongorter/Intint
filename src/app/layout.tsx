@@ -5,13 +5,13 @@ import "./globals.css";
 const raleway = Raleway({ subsets: ["latin"], weight: ["300", "400", "500", "600", "700", "800"] });
 
 export const metadata: Metadata = {
-  title: "Intint – Autoruiten tinten op locatie in Friesland",
+  title: "Intint – Autoruiten tinten aan huis in Noord-Nederland",
   description:
-    "Simon Gorter tint autoruiten op uw locatie, binnen 60 km van Balk. Particulier en zakelijk. Standaard en ceramic folie. Vraag vrijblijvend een offerte aan.",
+    "Wij komen naar u toe, binnen 100 km van Balk, Friesland. Particulier en zakelijk. Vraag vrijblijvend een offerte aan.",
   openGraph: {
-    title: "Intint – Autoruiten tinten op locatie in Friesland",
+    title: "Intint – Autoruiten tinten aan huis in Noord-Nederland",
     description:
-      "Simon Gorter tint autoruiten op uw locatie, binnen 60 km van Balk. Particulier en zakelijk. Standaard en ceramic folie. Vraag vrijblijvend een offerte aan.",
+      "Wij komen naar u toe, binnen 100 km van Balk, Friesland. Particulier en zakelijk. Vraag vrijblijvend een offerte aan.",
     locale: "nl_NL",
     type: "website",
     siteName: "Intint",
